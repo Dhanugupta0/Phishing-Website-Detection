@@ -1,7 +1,7 @@
 from networksecurity.entity.artifact_entity import DataIngestionArtifact, DataValidtaionArtifact
 from networksecurity.entity.config_entity import DataValidationConfig
 from networksecurity.exception.exception import NetworkSecurityException
-from networksecurity.logging.logger import logging
+from networksecurity.logging.logger import logger
 from networksecurity.constants.training_pipeline import SCHEMA_FILE_PATH
 from scipy.stats import ks_2samp
 import pandas as pd
@@ -28,8 +28,8 @@ class DataValidation:
     def validate_number_of_columns(self,dataframe:pd.DataFrame)->bool:
         try:
             number_of_columns=len(self._schema_config)
-            logging.info=(f"Required no. of column:{number_of_columns}")
-            logging.info=(f"dataframe has columns: {len(dataframe.columns)}")
+            logger.info(f"Required no. of column:{number_of_columns}")
+            logger.info(f"dataframe has columns: {len(dataframe.columns)}")
             if len(dataframe.columns)==number_of_columns:
                 return True
             return False

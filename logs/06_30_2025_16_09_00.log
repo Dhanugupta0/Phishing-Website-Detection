@@ -1,0 +1,9 @@
+2025-06-30 16:09:02,126 - INFO - Initiating data ingestion
+2025-06-30 16:09:04,186 - INFO - Data ingestion completed
+2025-06-30 16:09:04,191 - INFO - Initiating data validation
+2025-06-30 16:09:04,240 - INFO - Required no. of column:2
+2025-06-30 16:09:04,241 - INFO - dataframe has columns: 31
+2025-06-30 16:09:04,241 - INFO - Required no. of column:2
+2025-06-30 16:09:04,241 - INFO - dataframe has columns: 31
+2025-06-30 16:09:04,353 - INFO - Data validation completed
+2025-06-30 16:09:04,353 - INFO - Initiating data transformation

@@ -1,0 +1,13 @@
+2025-06-30 16:14:58,866 - INFO - Initiating data ingestion
+2025-06-30 16:15:01,034 - INFO - Data ingestion completed
+2025-06-30 16:15:01,034 - INFO - Initiating data validation
+2025-06-30 16:15:01,083 - INFO - Required no. of column:2
+2025-06-30 16:15:01,083 - INFO - dataframe has columns: 31
+2025-06-30 16:15:01,083 - INFO - Required no. of column:2
+2025-06-30 16:15:01,083 - INFO - dataframe has columns: 31
+2025-06-30 16:15:01,185 - INFO - Data validation completed
+2025-06-30 16:15:01,185 - INFO - Initiating data transformation
+2025-06-30 16:15:01,185 - INFO - Entered initiate_data_transformation method of datatransformation class
+2025-06-30 16:15:01,185 - INFO - Starting data transformation
+2025-06-30 16:15:01,206 - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+2025-06-30 16:15:01,206 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
