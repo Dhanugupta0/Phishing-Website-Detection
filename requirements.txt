@@ -3,9 +3,12 @@ pandas
 numpy
 pymongo
 certifi
-pymongo
+pymongo[srv]
 scikit-learn
 dill
 pyaml
 mlflow
+fastapi
+uvicorn
+
 ##-e .
