@@ -22,7 +22,7 @@ Docker Compatible: Easily containerize and deploy.
 
 🛠️ Installation
 1. Clone the Repository
-git clone https://github.com/yourusername/phishing-website-detection.git
+git clone https://github.com/Dhanugupta0/phishing-website-detection.git
 cd phishing-website-detection
 
 2. Create and Activate a Virtual Environment
@@ -50,7 +50,7 @@ Visit: http://127.0.0.1:8000/docs to access the interactive API documentation.
 Make Predictions
 
 Upload a CSV file containing website URLs to the /predict endpoint to get phishing detection results.
-
+```bash
 📁 Project Structure
 ├── app.py                # FastAPI application entry
 ├── main.py               # Server main script
@@ -61,7 +61,7 @@ Upload a CSV file containing website URLs to the /predict endpoint to get phishi
 ├── requirements.txt      # Project dependencies
 ├── README.md             # Project documentation
 └── Dockerfile            # Containerization setup
-
+```
 🤖 Model & Data
 
 Machine Learning Model: Random Forest / XGBoost (configurable)
